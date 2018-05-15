@@ -1,6 +1,6 @@
 function sendNotification(username) {
     var SS = SpreadsheetApp.getActiveSpreadsheet()
-    var slack = "https://hooks.slack.com/services/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"
+    var slack = ""
     var data = {
       "text": "You've been assigned to a comment in " + SS.getName() + ". Click <" + SS.getUrl() + "|here> to access the Google Sheet!",
       "channel": username
